@@ -12,3 +12,8 @@ variable "environment" {
   description = "Environment name"
   type        = string
 }
+
+variable "availability_zones" {
+  description = "Availability Zones to use for the VPC"
+  type        = list(string)
+}
